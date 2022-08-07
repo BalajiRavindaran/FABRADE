@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-After Cloning this project type, 
+After Cloning this project, type 
 
 ### `npm install --legacy-peer-deps`
 
