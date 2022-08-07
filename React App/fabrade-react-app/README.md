@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+After Cloning this project type ### 'npm install --legacy-peer-deps' for installing all the dependencies.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
