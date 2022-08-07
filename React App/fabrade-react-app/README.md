@@ -2,7 +2,7 @@
 
 After Cloning this project type, 
 
-### 'npm install --legacy-peer-deps'
+### `npm install --legacy-peer-deps`
 
 inside fabrade-react-app folder for installing all the dependencies.
 
