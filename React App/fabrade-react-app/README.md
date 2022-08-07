@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-After Cloning this project type ### 'npm install --legacy-peer-deps' for installing all the dependencies.
+After Cloning this project type, 
+
+### 'npm install --legacy-peer-deps'
+
+inside fabrade-react-app folder for installing all the dependencies.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
