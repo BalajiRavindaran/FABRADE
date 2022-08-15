@@ -1,0 +1,23 @@
+2022-08-13 16:05:44,263  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: https://localhost:7070
+ 2022-08-13 16:05:44,316  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5070
+ 2022-08-13 16:05:44,328  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-13 16:05:44,336  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-08-13 16:05:44,341  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: D:\Applied Hands-on\FABRADE\FABRADE\
+ 2022-08-13 16:05:52,192  WARN FABRADE.Controllers.fabradeTransactionsController.MoveNext [33] - MESSAGE: Get Action Called
+ 2022-08-13 16:05:53,025  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 6.0.7 initialized 'fabradeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+ 2022-08-13 16:05:53,851  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (55ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [f].[id], [f].[age], [f].[contact_name], [f].[contact_no], [f].[dress_type], [f].[gender], [f].[size]
+FROM [fabradeTransactions] AS [f]
+ 2022-08-13 16:06:07,765  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 6.0.7 initialized 'fabradeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+ 2022-08-13 16:06:08,141  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (84ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [f].[id], [f].[age], [f].[contact_name], [f].[contact_no], [f].[dress_type], [f].[gender], [f].[size]
+FROM [fabradeTransactions] AS [f]
+WHERE [f].[id] = @__p_0
+ 2022-08-13 16:06:08,144  WARN FABRADE.Controllers.fabradeTransactionsController.MoveNext [117] - MESSAGE: Invalid ID provided for Delete Action
+ 2022-08-13 16:06:17,522  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 6.0.7 initialized 'fabradeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+ 2022-08-13 16:06:17,537  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [f].[id], [f].[age], [f].[contact_name], [f].[contact_no], [f].[dress_type], [f].[gender], [f].[size]
+FROM [fabradeTransactions] AS [f]
+WHERE [f].[id] = @__p_0
+ 2022-08-13 16:06:17,538  WARN FABRADE.Controllers.fabradeTransactionsController.MoveNext [51] - MESSAGE: Invalid ID provided for Get Action with ID
+ 
